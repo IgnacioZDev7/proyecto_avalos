@@ -1,0 +1,13 @@
+:root{--bg:#0f1720;--card:#111827;--accent:#10b981;--text:#e6eef6}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:var(--text);display:flex;min-height:100vh;align-items:center;justify-content:center}
+main#app{width:90%;max-width:960px}
+.controls{display:flex;gap:.5rem;align-items:center;justify-content:center;margin-bottom:1rem}
+button{padding:.5rem .75rem;border-radius:.5rem;border:0;background:#111827;color:var(--text);cursor:pointer}
+.slides{min-height:320px;display:grid;gap:1rem}
+.slide{background:linear-gradient(180deg,rgba(255,255,255,.02),transparent);padding:1.25rem;border-radius:.75rem;border:1px solid rgba(255,255,255,.04)}
+.slide h2{margin:.25rem 0}
+.slide p{margin:.5rem 0}
+.notes{margin-top:1rem;padding:.75rem;border-radius:.5rem;background:#0b1220;border:1px solid rgba(255,255,255,.03)}
+.hidden{display:none}
+@media (min-width:720px){.slides{grid-template-columns:1fr 1fr}}

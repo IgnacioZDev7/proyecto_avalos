@@ -1,0 +1,18 @@
+{
+"slides": [
+        {
+        "title": "TÍTULO/INTRO",
+        "subtitle": "Subtítulo opcional",
+        "content": ["PUNTO 1","PUNTO 2"],
+        "image": "images/1.png",
+        "notes": "Notas del presentador para esta diapositiva"
+        },
+        {
+        "title": "SEGUNDA DIAPOSITIVA",
+        "subtitle": "",
+        "content": ["Explicación breve..."],
+        "image": "",
+        "notes": ""
+        }
+    ]
+}
