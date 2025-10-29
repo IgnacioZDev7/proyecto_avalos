@@ -1,0 +1,1 @@
+Plantilla para creacion de resumenes especificos con diapositivas, segmentos de texto para interactividad, enfocado para entender la logica de programacion, crear y modificar los textos para que las presentaciones sean mas interactivas
